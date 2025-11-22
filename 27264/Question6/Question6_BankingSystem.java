@@ -257,50 +257,52 @@ final class AccountRecord extends Payment {
     }
 
     public void displayRecord() {
-        System.out.println("\n========== BANKING SYSTEM ==========");
-        System.out.println("Record ID: " + getId());
-        System.out.println("Created: " + getCreatedDate());
-        System.out.println("Updated: " + getUpdatedDate());
-        System.out.println("\n--- Bank Details ---");
-        System.out.println("Bank: " + getBankName());
-        System.out.println("Branch Code: " + getBranchCode());
-        System.out.println("Address: " + getAddress());
-        System.out.println("\n--- Account Details ---");
-        System.out.println("Account Number: " + getAccountNumber());
-        System.out.println("Account Type: " + getAccountType());
-        System.out.println("Balance: $" + getBalance());
-        System.out.println("\n--- Customer Details ---");
-        System.out.println("Name: " + getCustomerName());
-        System.out.println("Email: " + getEmail());
-        System.out.println("Phone: " + getPhoneNumber());
-        System.out.println("\n--- Transaction Details ---");
-        System.out.println("Transaction ID: " + getTransactionId());
-        System.out.println("Type: " + getTransactionType());
-        System.out.println("Amount: $" + getAmount());
-        System.out.println("\n--- Deposit Details ---");
-        System.out.println("Deposit Amount: $" + getDepositAmount());
-        System.out.println("Deposit Date: " + getDepositDate());
-        System.out.println("\n--- Withdrawal Details ---");
-        System.out.println("Withdrawal Amount: $" + getWithdrawalAmount());
-        System.out.println("Withdrawal Date: " + getWithdrawalDate());
-        System.out.println("\n--- Loan Details ---");
-        System.out.println("Loan Amount: $" + getLoanAmount());
-        System.out.println("Interest Rate: " + getInterestRate() + "%");
-        System.out.println("Duration: " + getDuration() + " months");
-        System.out.println("Calculated Interest: $" + calculatedInterest);
-        System.out.println("\n--- Payment Details ---");
-        System.out.println("Payment Amount: $" + getPaymentAmount());
-        System.out.println("Payment Date: " + getPaymentDate());
-        System.out.println("=====================================\n");
+        System.out.println("\n" + Question6_BankingSystem.STUDENT_ID + " - ========== BANKING SYSTEM ==========");
+        System.out.println(Question6_BankingSystem.STUDENT_ID + " - Record ID: " + getId());
+        System.out.println(Question6_BankingSystem.STUDENT_ID + " - Created: " + getCreatedDate());
+        System.out.println(Question6_BankingSystem.STUDENT_ID + " - Updated: " + getUpdatedDate());
+        System.out.println("\n" + Question6_BankingSystem.STUDENT_ID + " - --- Bank Details ---");
+        System.out.println(Question6_BankingSystem.STUDENT_ID + " - Bank: " + getBankName());
+        System.out.println(Question6_BankingSystem.STUDENT_ID + " - Branch Code: " + getBranchCode());
+        System.out.println(Question6_BankingSystem.STUDENT_ID + " - Address: " + getAddress());
+        System.out.println("\n" + Question6_BankingSystem.STUDENT_ID + " - --- Account Details ---");
+        System.out.println(Question6_BankingSystem.STUDENT_ID + " - Account Number: " + getAccountNumber());
+        System.out.println(Question6_BankingSystem.STUDENT_ID + " - Account Type: " + getAccountType());
+        System.out.println(Question6_BankingSystem.STUDENT_ID + " - Balance: $" + getBalance());
+        System.out.println("\n" + Question6_BankingSystem.STUDENT_ID + " - --- Customer Details ---");
+        System.out.println(Question6_BankingSystem.STUDENT_ID + " - Name: " + getCustomerName());
+        System.out.println(Question6_BankingSystem.STUDENT_ID + " - Email: " + getEmail());
+        System.out.println(Question6_BankingSystem.STUDENT_ID + " - Phone: " + getPhoneNumber());
+        System.out.println("\n" + Question6_BankingSystem.STUDENT_ID + " - --- Transaction Details ---");
+        System.out.println(Question6_BankingSystem.STUDENT_ID + " - Transaction ID: " + getTransactionId());
+        System.out.println(Question6_BankingSystem.STUDENT_ID + " - Type: " + getTransactionType());
+        System.out.println(Question6_BankingSystem.STUDENT_ID + " - Amount: $" + getAmount());
+        System.out.println("\n" + Question6_BankingSystem.STUDENT_ID + " - --- Deposit Details ---");
+        System.out.println(Question6_BankingSystem.STUDENT_ID + " - Deposit Amount: $" + getDepositAmount());
+        System.out.println(Question6_BankingSystem.STUDENT_ID + " - Deposit Date: " + getDepositDate());
+        System.out.println("\n" + Question6_BankingSystem.STUDENT_ID + " - --- Withdrawal Details ---");
+        System.out.println(Question6_BankingSystem.STUDENT_ID + " - Withdrawal Amount: $" + getWithdrawalAmount());
+        System.out.println(Question6_BankingSystem.STUDENT_ID + " - Withdrawal Date: " + getWithdrawalDate());
+        System.out.println("\n" + Question6_BankingSystem.STUDENT_ID + " - --- Loan Details ---");
+        System.out.println(Question6_BankingSystem.STUDENT_ID + " - Loan Amount: $" + getLoanAmount());
+        System.out.println(Question6_BankingSystem.STUDENT_ID + " - Interest Rate: " + getInterestRate() + "%");
+        System.out.println(Question6_BankingSystem.STUDENT_ID + " - Duration: " + getDuration() + " months");
+        System.out.println(Question6_BankingSystem.STUDENT_ID + " - Calculated Interest: $" + calculatedInterest);
+        System.out.println("\n" + Question6_BankingSystem.STUDENT_ID + " - --- Payment Details ---");
+        System.out.println(Question6_BankingSystem.STUDENT_ID + " - Payment Amount: $" + getPaymentAmount());
+        System.out.println(Question6_BankingSystem.STUDENT_ID + " - Payment Date: " + getPaymentDate());
+        System.out.println(Question6_BankingSystem.STUDENT_ID + " - =====================================\n");
     }
 }
 
 public class Question6_BankingSystem {
+    public static final String STUDENT_ID = "27264";
+    
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         
         try {
-            System.out.println("=== BANKING SYSTEM ===\n");
+            System.out.println(Question6_BankingSystem.STUDENT_ID + " - === BANKING SYSTEM ===\n");
             
             System.out.print("Enter ID: ");
             int id = sc.nextInt();
@@ -391,9 +393,9 @@ public class Question6_BankingSystem {
             record.displayRecord();
             
         } catch (BankingException e) {
-            System.out.println("Validation Error: " + e.getMessage());
+            System.out.println(Question6_BankingSystem.STUDENT_ID + " - Validation Error: " + e.getMessage());
         } catch (Exception e) {
-            System.out.println("Input Error: " + e.getMessage());
+            System.out.println(Question6_BankingSystem.STUDENT_ID + " - Input Error: " + e.getMessage());
         } finally {
             sc.close();
         }

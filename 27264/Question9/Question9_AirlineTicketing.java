@@ -318,54 +318,56 @@ final class TicketRecord extends Invoice {
     }
 
     public void displayRecord() {
-        System.out.println("\n========== AIRLINE TICKETING SYSTEM ==========");
-        System.out.println("Record ID: " + getId());
-        System.out.println("Created Date: " + getCreatedDate());
-        System.out.println("Updated Date: " + getUpdatedDate());
-        System.out.println("\n--- Airline Details ---");
-        System.out.println("Airline Name: " + getAirlineName());
-        System.out.println("Address: " + getAddress());
-        System.out.println("Phone: " + getPhoneNumber());
-        System.out.println("Email: " + getEmail());
-        System.out.println("\n--- Flight Details ---");
-        System.out.println("Flight Number: " + getFlightNumber());
-        System.out.println("Flight Code: " + getFlightCode());
-        System.out.println("\n--- Passenger Details ---");
-        System.out.println("Passenger Name: " + getPassengerName());
-        System.out.println("Passport Number: " + getPassportNumber());
-        System.out.println("Passenger Email: " + getPassengerEmail());
-        System.out.println("Passenger Phone: " + getPhone());
-        System.out.println("\n--- Seat Details ---");
-        System.out.println("Seat Number: " + getSeatNumber());
-        System.out.println("Seat Class: " + getSeatClass());
-        System.out.println("Available Seats: " + getAvailableSeats());
-        System.out.println("\n--- Ticket Details ---");
-        System.out.println("Ticket Number: " + getTicketNumber());
-        System.out.println("Ticket Quantity: " + getTicketQuantity());
-        System.out.println("Booking Status: " + getBookingStatus());
-        System.out.println("Contact Number: " + getContactNumber());
-        System.out.println("\n--- Baggage Details ---");
-        System.out.println("Baggage Type: " + getBaggageType());
-        System.out.println("Baggage Weight: " + getBaggageWeight() + " kg");
-        System.out.println("Baggage Fee: $" + getBaggageFee());
-        System.out.println("\n--- Payment Details ---");
-        System.out.println("Payment Method: " + getPaymentMethod());
-        System.out.println("Transaction ID: " + getTransactionId());
-        System.out.println("Price: $" + getPrice());
-        System.out.println("\n--- Invoice Details ---");
-        System.out.println("Tax Amount: $" + getTaxAmount());
-        System.out.println("Service Fee: $" + getServiceFee());
-        System.out.println("Total Invoice: $" + getTotalInvoice());
-        System.out.println("==============================================\n");
+        System.out.println("\n" + Question9_AirlineTicketing.STUDENT_ID + " - ========== AIRLINE TICKETING SYSTEM ==========");
+        System.out.println(Question9_AirlineTicketing.STUDENT_ID + " - Record ID: " + getId());
+        System.out.println(Question9_AirlineTicketing.STUDENT_ID + " - Created Date: " + getCreatedDate());
+        System.out.println(Question9_AirlineTicketing.STUDENT_ID + " - Updated Date: " + getUpdatedDate());
+        System.out.println("\n" + Question9_AirlineTicketing.STUDENT_ID + " - --- Airline Details ---");
+        System.out.println(Question9_AirlineTicketing.STUDENT_ID + " - Airline Name: " + getAirlineName());
+        System.out.println(Question9_AirlineTicketing.STUDENT_ID + " - Address: " + getAddress());
+        System.out.println(Question9_AirlineTicketing.STUDENT_ID + " - Phone: " + getPhoneNumber());
+        System.out.println(Question9_AirlineTicketing.STUDENT_ID + " - Email: " + getEmail());
+        System.out.println("\n" + Question9_AirlineTicketing.STUDENT_ID + " - --- Flight Details ---");
+        System.out.println(Question9_AirlineTicketing.STUDENT_ID + " - Flight Number: " + getFlightNumber());
+        System.out.println(Question9_AirlineTicketing.STUDENT_ID + " - Flight Code: " + getFlightCode());
+        System.out.println("\n" + Question9_AirlineTicketing.STUDENT_ID + " - --- Passenger Details ---");
+        System.out.println(Question9_AirlineTicketing.STUDENT_ID + " - Passenger Name: " + getPassengerName());
+        System.out.println(Question9_AirlineTicketing.STUDENT_ID + " - Passport Number: " + getPassportNumber());
+        System.out.println(Question9_AirlineTicketing.STUDENT_ID + " - Passenger Email: " + getPassengerEmail());
+        System.out.println(Question9_AirlineTicketing.STUDENT_ID + " - Passenger Phone: " + getPhone());
+        System.out.println("\n" + Question9_AirlineTicketing.STUDENT_ID + " - --- Seat Details ---");
+        System.out.println(Question9_AirlineTicketing.STUDENT_ID + " - Seat Number: " + getSeatNumber());
+        System.out.println(Question9_AirlineTicketing.STUDENT_ID + " - Seat Class: " + getSeatClass());
+        System.out.println(Question9_AirlineTicketing.STUDENT_ID + " - Available Seats: " + getAvailableSeats());
+        System.out.println("\n" + Question9_AirlineTicketing.STUDENT_ID + " - --- Ticket Details ---");
+        System.out.println(Question9_AirlineTicketing.STUDENT_ID + " - Ticket Number: " + getTicketNumber());
+        System.out.println(Question9_AirlineTicketing.STUDENT_ID + " - Ticket Quantity: " + getTicketQuantity());
+        System.out.println(Question9_AirlineTicketing.STUDENT_ID + " - Booking Status: " + getBookingStatus());
+        System.out.println(Question9_AirlineTicketing.STUDENT_ID + " - Contact Number: " + getContactNumber());
+        System.out.println("\n" + Question9_AirlineTicketing.STUDENT_ID + " - --- Baggage Details ---");
+        System.out.println(Question9_AirlineTicketing.STUDENT_ID + " - Baggage Type: " + getBaggageType());
+        System.out.println(Question9_AirlineTicketing.STUDENT_ID + " - Baggage Weight: " + getBaggageWeight() + " kg");
+        System.out.println(Question9_AirlineTicketing.STUDENT_ID + " - Baggage Fee: $" + getBaggageFee());
+        System.out.println("\n" + Question9_AirlineTicketing.STUDENT_ID + " - --- Payment Details ---");
+        System.out.println(Question9_AirlineTicketing.STUDENT_ID + " - Payment Method: " + getPaymentMethod());
+        System.out.println(Question9_AirlineTicketing.STUDENT_ID + " - Transaction ID: " + getTransactionId());
+        System.out.println(Question9_AirlineTicketing.STUDENT_ID + " - Price: $" + getPrice());
+        System.out.println("\n" + Question9_AirlineTicketing.STUDENT_ID + " - --- Invoice Details ---");
+        System.out.println(Question9_AirlineTicketing.STUDENT_ID + " - Tax Amount: $" + getTaxAmount());
+        System.out.println(Question9_AirlineTicketing.STUDENT_ID + " - Service Fee: $" + getServiceFee());
+        System.out.println(Question9_AirlineTicketing.STUDENT_ID + " - Total Invoice: $" + getTotalInvoice());
+        System.out.println(Question9_AirlineTicketing.STUDENT_ID + " - ==============================================\n");
     }
 }
 
 public class Question9_AirlineTicketing {
+    public static final String STUDENT_ID = "27264";
+    
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         
         try {
-            System.out.println("========== AIRLINE TICKETING SYSTEM ==========\n");
+            System.out.println(Question9_AirlineTicketing.STUDENT_ID + " - ========== AIRLINE TICKETING SYSTEM ==========\n");
             
             System.out.print("Enter Record ID: ");
             int id = scanner.nextInt();
@@ -465,9 +467,9 @@ public class Question9_AirlineTicketing {
             record.displayRecord();
             
         } catch (AirlineException e) {
-            System.out.println("Validation Error: " + e.getMessage());
+            System.out.println(Question9_AirlineTicketing.STUDENT_ID + " - Validation Error: " + e.getMessage());
         } catch (Exception e) {
-            System.out.println("Input Error: Please enter valid data");
+            System.out.println(Question9_AirlineTicketing.STUDENT_ID + " - Input Error: Please enter valid data");
         } finally {
             scanner.close();
         }

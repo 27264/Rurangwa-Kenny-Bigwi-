@@ -318,54 +318,56 @@ final class RealEstateRecord extends Commission {
     }
 
     public void displayRecord() {
-        System.out.println("\n========== REAL ESTATE MANAGEMENT SYSTEM ==========");
-        System.out.println("Record ID: " + getId());
-        System.out.println("Created Date: " + getCreatedDate());
-        System.out.println("Updated Date: " + getUpdatedDate());
-        System.out.println("\n--- Agency Details ---");
-        System.out.println("Agency Name: " + getAgencyName());
-        System.out.println("Address: " + getAddress());
-        System.out.println("Phone: " + getPhoneNumber());
-        System.out.println("Email: " + getEmail());
-        System.out.println("\n--- Agent Details ---");
-        System.out.println("Agent Name: " + getAgentName());
-        System.out.println("Agent Code: " + getAgentCode());
-        System.out.println("\n--- Property Details ---");
-        System.out.println("Property Type: " + getPropertyType());
-        System.out.println("Location: " + getLocation());
-        System.out.println("Property Email: " + getPropertyEmail());
-        System.out.println("Property Phone: " + getPhone());
-        System.out.println("\n--- Seller Details ---");
-        System.out.println("Seller Name: " + getSellerName());
-        System.out.println("Seller Type: " + getSellerType());
-        System.out.println("Years Owned: " + getYearsOwned());
-        System.out.println("\n--- Buyer Details ---");
-        System.out.println("Buyer Name: " + getBuyerName());
-        System.out.println("Age: " + getAge());
-        System.out.println("Buyer Type: " + getBuyerType());
-        System.out.println("Contact Number: " + getContactNumber());
-        System.out.println("\n--- Agreement Details ---");
-        System.out.println("Agreement Date: " + getAgreementDate());
-        System.out.println("Agreement Number: " + getAgreementNumber());
-        System.out.println("Agreement Fee: $" + getAgreementFee());
-        System.out.println("\n--- Payment Details ---");
-        System.out.println("Payment Method: " + getPaymentMethod());
-        System.out.println("Transaction ID: " + getTransactionId());
-        System.out.println("Price: $" + getPrice());
-        System.out.println("\n--- Commission Details ---");
-        System.out.println("Commission Rate: " + getCommissionRate() + "%");
-        System.out.println("Tax Rate: " + getTaxRate() + "%");
-        System.out.println("Total Commission: $" + getTotalCommission());
-        System.out.println("===================================================\n");
+        System.out.println("\n" + Question7_RealEstateManagement.STUDENT_ID + " - ========== REAL ESTATE MANAGEMENT SYSTEM ==========");
+        System.out.println(Question7_RealEstateManagement.STUDENT_ID + " - Record ID: " + getId());
+        System.out.println(Question7_RealEstateManagement.STUDENT_ID + " - Created Date: " + getCreatedDate());
+        System.out.println(Question7_RealEstateManagement.STUDENT_ID + " - Updated Date: " + getUpdatedDate());
+        System.out.println("\n" + Question7_RealEstateManagement.STUDENT_ID + " - --- Agency Details ---");
+        System.out.println(Question7_RealEstateManagement.STUDENT_ID + " - Agency Name: " + getAgencyName());
+        System.out.println(Question7_RealEstateManagement.STUDENT_ID + " - Address: " + getAddress());
+        System.out.println(Question7_RealEstateManagement.STUDENT_ID + " - Phone: " + getPhoneNumber());
+        System.out.println(Question7_RealEstateManagement.STUDENT_ID + " - Email: " + getEmail());
+        System.out.println("\n" + Question7_RealEstateManagement.STUDENT_ID + " - --- Agent Details ---");
+        System.out.println(Question7_RealEstateManagement.STUDENT_ID + " - Agent Name: " + getAgentName());
+        System.out.println(Question7_RealEstateManagement.STUDENT_ID + " - Agent Code: " + getAgentCode());
+        System.out.println("\n" + Question7_RealEstateManagement.STUDENT_ID + " - --- Property Details ---");
+        System.out.println(Question7_RealEstateManagement.STUDENT_ID + " - Property Type: " + getPropertyType());
+        System.out.println(Question7_RealEstateManagement.STUDENT_ID + " - Location: " + getLocation());
+        System.out.println(Question7_RealEstateManagement.STUDENT_ID + " - Property Email: " + getPropertyEmail());
+        System.out.println(Question7_RealEstateManagement.STUDENT_ID + " - Property Phone: " + getPhone());
+        System.out.println("\n" + Question7_RealEstateManagement.STUDENT_ID + " - --- Seller Details ---");
+        System.out.println(Question7_RealEstateManagement.STUDENT_ID + " - Seller Name: " + getSellerName());
+        System.out.println(Question7_RealEstateManagement.STUDENT_ID + " - Seller Type: " + getSellerType());
+        System.out.println(Question7_RealEstateManagement.STUDENT_ID + " - Years Owned: " + getYearsOwned());
+        System.out.println("\n" + Question7_RealEstateManagement.STUDENT_ID + " - --- Buyer Details ---");
+        System.out.println(Question7_RealEstateManagement.STUDENT_ID + " - Buyer Name: " + getBuyerName());
+        System.out.println(Question7_RealEstateManagement.STUDENT_ID + " - Age: " + getAge());
+        System.out.println(Question7_RealEstateManagement.STUDENT_ID + " - Buyer Type: " + getBuyerType());
+        System.out.println(Question7_RealEstateManagement.STUDENT_ID + " - Contact Number: " + getContactNumber());
+        System.out.println("\n" + Question7_RealEstateManagement.STUDENT_ID + " - --- Agreement Details ---");
+        System.out.println(Question7_RealEstateManagement.STUDENT_ID + " - Agreement Date: " + getAgreementDate());
+        System.out.println(Question7_RealEstateManagement.STUDENT_ID + " - Agreement Number: " + getAgreementNumber());
+        System.out.println(Question7_RealEstateManagement.STUDENT_ID + " - Agreement Fee: $" + getAgreementFee());
+        System.out.println("\n" + Question7_RealEstateManagement.STUDENT_ID + " - --- Payment Details ---");
+        System.out.println(Question7_RealEstateManagement.STUDENT_ID + " - Payment Method: " + getPaymentMethod());
+        System.out.println(Question7_RealEstateManagement.STUDENT_ID + " - Transaction ID: " + getTransactionId());
+        System.out.println(Question7_RealEstateManagement.STUDENT_ID + " - Price: $" + getPrice());
+        System.out.println("\n" + Question7_RealEstateManagement.STUDENT_ID + " - --- Commission Details ---");
+        System.out.println(Question7_RealEstateManagement.STUDENT_ID + " - Commission Rate: " + getCommissionRate() + "%");
+        System.out.println(Question7_RealEstateManagement.STUDENT_ID + " - Tax Rate: " + getTaxRate() + "%");
+        System.out.println(Question7_RealEstateManagement.STUDENT_ID + " - Total Commission: $" + getTotalCommission());
+        System.out.println(Question7_RealEstateManagement.STUDENT_ID + " - ===================================================\n");
     }
 }
 
 public class Question7_RealEstateManagement {
+    public static final String STUDENT_ID = "27264";
+    
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         
         try {
-            System.out.println("========== REAL ESTATE MANAGEMENT SYSTEM ==========\n");
+            System.out.println(Question7_RealEstateManagement.STUDENT_ID + " - ========== REAL ESTATE MANAGEMENT SYSTEM ==========\n");
             
             System.out.print("Enter Record ID: ");
             int id = scanner.nextInt();
@@ -465,9 +467,9 @@ public class Question7_RealEstateManagement {
             record.displayRecord();
             
         } catch (RealEstateException e) {
-            System.out.println("Validation Error: " + e.getMessage());
+            System.out.println(Question7_RealEstateManagement.STUDENT_ID + " - Validation Error: " + e.getMessage());
         } catch (Exception e) {
-            System.out.println("Input Error: Please enter valid data");
+            System.out.println(Question7_RealEstateManagement.STUDENT_ID + " - Input Error: Please enter valid data");
         } finally {
             scanner.close();
         }

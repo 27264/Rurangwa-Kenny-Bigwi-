@@ -324,53 +324,55 @@ final class VehicleRentalRecord extends RentalInvoice {
     }
 
     public void displayRecord() {
-        System.out.println("\n========== VEHICLE RENTAL SYSTEM ==========");
-        System.out.println("Record ID: " + getId());
-        System.out.println("Created Date: " + getCreatedDate());
-        System.out.println("Updated Date: " + getUpdatedDate());
-        System.out.println("\n--- Company Details ---");
-        System.out.println("Company Name: " + getCompanyName());
-        System.out.println("Address: " + getAddress());
-        System.out.println("Phone: " + getPhoneNumber());
-        System.out.println("Email: " + getEmail());
-        System.out.println("\n--- Branch Details ---");
-        System.out.println("Branch Name: " + getBranchName());
-        System.out.println("Branch Code: " + getBranchCode());
-        System.out.println("\n--- Vehicle Details ---");
-        System.out.println("Vehicle Model: " + getVehicleModel());
-        System.out.println("Vehicle Number: " + getVehicleNumber());
-        System.out.println("Vehicle Type: " + getVehicleType());
-        System.out.println("Year of Manufacture: " + getYearOfManufacture());
-        System.out.println("\n--- Customer Details ---");
-        System.out.println("Customer Name: " + getCustomerName());
-        System.out.println("Customer Email: " + getCustomerEmail());
-        System.out.println("Customer Phone: " + getPhone());
-        System.out.println("License Number: " + getLicenseNumber());
-        System.out.println("\n--- Rental Details ---");
-        System.out.println("Rental Date: " + getRentalDate());
-        System.out.println("Return Date: " + getReturnDate());
-        System.out.println("Number of Days: " + getNumberOfDays());
-        System.out.println("\n--- Charge Details ---");
-        System.out.println("Daily Rate: $" + getDailyRate());
-        System.out.println("Rental Charge: $" + getRentalCharge());
-        System.out.println("Penalty Charge: $" + getPenaltyCharge());
-        System.out.println("\n--- Payment Details ---");
-        System.out.println("Payment Method: " + getPaymentMethod());
-        System.out.println("Payment Date: " + getPaymentDate());
-        System.out.println("Amount Paid: $" + getAmountPaid());
-        System.out.println("\n--- Invoice Details ---");
-        System.out.println("Invoice Number: " + getInvoiceNumber());
-        System.out.println("Total Charge: $" + getTotalCharge());
-        System.out.println("===============================================\n");
+        System.out.println("\n" + Question5_VehicleRental.STUDENT_ID + " - ========== VEHICLE RENTAL SYSTEM ==========");
+        System.out.println(Question5_VehicleRental.STUDENT_ID + " - Record ID: " + getId());
+        System.out.println(Question5_VehicleRental.STUDENT_ID + " - Created Date: " + getCreatedDate());
+        System.out.println(Question5_VehicleRental.STUDENT_ID + " - Updated Date: " + getUpdatedDate());
+        System.out.println("\n" + Question5_VehicleRental.STUDENT_ID + " - --- Company Details ---");
+        System.out.println(Question5_VehicleRental.STUDENT_ID + " - Company Name: " + getCompanyName());
+        System.out.println(Question5_VehicleRental.STUDENT_ID + " - Address: " + getAddress());
+        System.out.println(Question5_VehicleRental.STUDENT_ID + " - Phone: " + getPhoneNumber());
+        System.out.println(Question5_VehicleRental.STUDENT_ID + " - Email: " + getEmail());
+        System.out.println("\n" + Question5_VehicleRental.STUDENT_ID + " - --- Branch Details ---");
+        System.out.println(Question5_VehicleRental.STUDENT_ID + " - Branch Name: " + getBranchName());
+        System.out.println(Question5_VehicleRental.STUDENT_ID + " - Branch Code: " + getBranchCode());
+        System.out.println("\n" + Question5_VehicleRental.STUDENT_ID + " - --- Vehicle Details ---");
+        System.out.println(Question5_VehicleRental.STUDENT_ID + " - Vehicle Model: " + getVehicleModel());
+        System.out.println(Question5_VehicleRental.STUDENT_ID + " - Vehicle Number: " + getVehicleNumber());
+        System.out.println(Question5_VehicleRental.STUDENT_ID + " - Vehicle Type: " + getVehicleType());
+        System.out.println(Question5_VehicleRental.STUDENT_ID + " - Year of Manufacture: " + getYearOfManufacture());
+        System.out.println("\n" + Question5_VehicleRental.STUDENT_ID + " - --- Customer Details ---");
+        System.out.println(Question5_VehicleRental.STUDENT_ID + " - Customer Name: " + getCustomerName());
+        System.out.println(Question5_VehicleRental.STUDENT_ID + " - Customer Email: " + getCustomerEmail());
+        System.out.println(Question5_VehicleRental.STUDENT_ID + " - Customer Phone: " + getPhone());
+        System.out.println(Question5_VehicleRental.STUDENT_ID + " - License Number: " + getLicenseNumber());
+        System.out.println("\n" + Question5_VehicleRental.STUDENT_ID + " - --- Rental Details ---");
+        System.out.println(Question5_VehicleRental.STUDENT_ID + " - Rental Date: " + getRentalDate());
+        System.out.println(Question5_VehicleRental.STUDENT_ID + " - Return Date: " + getReturnDate());
+        System.out.println(Question5_VehicleRental.STUDENT_ID + " - Number of Days: " + getNumberOfDays());
+        System.out.println("\n" + Question5_VehicleRental.STUDENT_ID + " - --- Charge Details ---");
+        System.out.println(Question5_VehicleRental.STUDENT_ID + " - Daily Rate: $" + getDailyRate());
+        System.out.println(Question5_VehicleRental.STUDENT_ID + " - Rental Charge: $" + getRentalCharge());
+        System.out.println(Question5_VehicleRental.STUDENT_ID + " - Penalty Charge: $" + getPenaltyCharge());
+        System.out.println("\n" + Question5_VehicleRental.STUDENT_ID + " - --- Payment Details ---");
+        System.out.println(Question5_VehicleRental.STUDENT_ID + " - Payment Method: " + getPaymentMethod());
+        System.out.println(Question5_VehicleRental.STUDENT_ID + " - Payment Date: " + getPaymentDate());
+        System.out.println(Question5_VehicleRental.STUDENT_ID + " - Amount Paid: $" + getAmountPaid());
+        System.out.println("\n" + Question5_VehicleRental.STUDENT_ID + " - --- Invoice Details ---");
+        System.out.println(Question5_VehicleRental.STUDENT_ID + " - Invoice Number: " + getInvoiceNumber());
+        System.out.println(Question5_VehicleRental.STUDENT_ID + " - Total Charge: $" + getTotalCharge());
+        System.out.println(Question5_VehicleRental.STUDENT_ID + " - ===============================================\n");
     }
 }
 
 public class Question5_VehicleRental {
+    public static final String STUDENT_ID = "27264";
+    
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         
         try {
-            System.out.println("========== VEHICLE RENTAL SYSTEM ==========\n");
+            System.out.println(Question5_VehicleRental.STUDENT_ID + " - ========== VEHICLE RENTAL SYSTEM ==========\n");
             
             System.out.print("Enter Record ID: ");
             int id = scanner.nextInt();
@@ -467,9 +469,9 @@ public class Question5_VehicleRental {
             record.displayRecord();
             
         } catch (RentalDataException e) {
-            System.out.println("Validation Error: " + e.getMessage());
+            System.out.println(Question5_VehicleRental.STUDENT_ID + " - Validation Error: " + e.getMessage());
         } catch (Exception e) {
-            System.out.println("Input Error: Please enter valid data");
+            System.out.println(Question5_VehicleRental.STUDENT_ID + " - Input Error: Please enter valid data");
         } finally {
             scanner.close();
         }

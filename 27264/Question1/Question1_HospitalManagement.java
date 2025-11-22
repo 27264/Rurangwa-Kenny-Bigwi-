@@ -318,54 +318,56 @@ final class HospitalRecord extends Bill {
     }
 
     public void displayRecord() {
-        System.out.println("\n========== HOSPITAL MANAGEMENT SYSTEM ==========");
-        System.out.println("Record ID: " + getId());
-        System.out.println("Created Date: " + getCreatedDate());
-        System.out.println("Updated Date: " + getUpdatedDate());
-        System.out.println("\n--- Hospital Details ---");
-        System.out.println("Hospital Name: " + getHospitalName());
-        System.out.println("Address: " + getAddress());
-        System.out.println("Phone: " + getPhoneNumber());
-        System.out.println("Email: " + getEmail());
-        System.out.println("\n--- Department Details ---");
-        System.out.println("Department: " + getDepartmentName());
-        System.out.println("Department Code: " + getDepartmentCode());
-        System.out.println("\n--- Doctor Details ---");
-        System.out.println("Doctor Name: " + getDoctorName());
-        System.out.println("Specialization: " + getSpecialization());
-        System.out.println("Doctor Email: " + getDoctorEmail());
-        System.out.println("Doctor Phone: " + getPhone());
-        System.out.println("\n--- Nurse Details ---");
-        System.out.println("Nurse Name: " + getNurseName());
-        System.out.println("Shift: " + getShift());
-        System.out.println("Years of Experience: " + getYearsOfExperience());
-        System.out.println("\n--- Patient Details ---");
-        System.out.println("Patient Name: " + getPatientName());
-        System.out.println("Age: " + getAge());
-        System.out.println("Gender: " + getGender());
-        System.out.println("Contact Number: " + getContactNumber());
-        System.out.println("\n--- Admission Details ---");
-        System.out.println("Admission Date: " + getAdmissionDate());
-        System.out.println("Room Number: " + getRoomNumber());
-        System.out.println("Room Charges: $" + getRoomCharges());
-        System.out.println("\n--- Treatment Details ---");
-        System.out.println("Diagnosis: " + getDiagnosis());
-        System.out.println("Treatment Given: " + getTreatmentGiven());
-        System.out.println("Treatment Cost: $" + getTreatmentCost());
-        System.out.println("\n--- Billing Details ---");
-        System.out.println("Doctor Fee: $" + getDoctorFee());
-        System.out.println("Medicine Cost: $" + getMedicineCost());
-        System.out.println("Total Bill: $" + getTotalBill());
-        System.out.println("===============================================\n");
+        System.out.println("\n" + Question1_HospitalManagement.STUDENT_ID + " - ========== HOSPITAL MANAGEMENT SYSTEM ==========");
+        System.out.println(Question1_HospitalManagement.STUDENT_ID + " - Record ID: " + getId());
+        System.out.println(Question1_HospitalManagement.STUDENT_ID + " - Created Date: " + getCreatedDate());
+        System.out.println(Question1_HospitalManagement.STUDENT_ID + " - Updated Date: " + getUpdatedDate());
+        System.out.println("\n" + Question1_HospitalManagement.STUDENT_ID + " - --- Hospital Details ---");
+        System.out.println(Question1_HospitalManagement.STUDENT_ID + " - Hospital Name: " + getHospitalName());
+        System.out.println(Question1_HospitalManagement.STUDENT_ID + " - Address: " + getAddress());
+        System.out.println(Question1_HospitalManagement.STUDENT_ID + " - Phone: " + getPhoneNumber());
+        System.out.println(Question1_HospitalManagement.STUDENT_ID + " - Email: " + getEmail());
+        System.out.println("\n" + Question1_HospitalManagement.STUDENT_ID + " - --- Department Details ---");
+        System.out.println(Question1_HospitalManagement.STUDENT_ID + " - Department: " + getDepartmentName());
+        System.out.println(Question1_HospitalManagement.STUDENT_ID + " - Department Code: " + getDepartmentCode());
+        System.out.println("\n" + Question1_HospitalManagement.STUDENT_ID + " - --- Doctor Details ---");
+        System.out.println(Question1_HospitalManagement.STUDENT_ID + " - Doctor Name: " + getDoctorName());
+        System.out.println(Question1_HospitalManagement.STUDENT_ID + " - Specialization: " + getSpecialization());
+        System.out.println(Question1_HospitalManagement.STUDENT_ID + " - Doctor Email: " + getDoctorEmail());
+        System.out.println(Question1_HospitalManagement.STUDENT_ID + " - Doctor Phone: " + getPhone());
+        System.out.println("\n" + Question1_HospitalManagement.STUDENT_ID + " - --- Nurse Details ---");
+        System.out.println(Question1_HospitalManagement.STUDENT_ID + " - Nurse Name: " + getNurseName());
+        System.out.println(Question1_HospitalManagement.STUDENT_ID + " - Shift: " + getShift());
+        System.out.println(Question1_HospitalManagement.STUDENT_ID + " - Years of Experience: " + getYearsOfExperience());
+        System.out.println("\n" + Question1_HospitalManagement.STUDENT_ID + " - --- Patient Details ---");
+        System.out.println(Question1_HospitalManagement.STUDENT_ID + " - Patient Name: " + getPatientName());
+        System.out.println(Question1_HospitalManagement.STUDENT_ID + " - Age: " + getAge());
+        System.out.println(Question1_HospitalManagement.STUDENT_ID + " - Gender: " + getGender());
+        System.out.println(Question1_HospitalManagement.STUDENT_ID + " - Contact Number: " + getContactNumber());
+        System.out.println("\n" + Question1_HospitalManagement.STUDENT_ID + " - --- Admission Details ---");
+        System.out.println(Question1_HospitalManagement.STUDENT_ID + " - Admission Date: " + getAdmissionDate());
+        System.out.println(Question1_HospitalManagement.STUDENT_ID + " - Room Number: " + getRoomNumber());
+        System.out.println(Question1_HospitalManagement.STUDENT_ID + " - Room Charges: $" + getRoomCharges());
+        System.out.println("\n" + Question1_HospitalManagement.STUDENT_ID + " - --- Treatment Details ---");
+        System.out.println(Question1_HospitalManagement.STUDENT_ID + " - Diagnosis: " + getDiagnosis());
+        System.out.println(Question1_HospitalManagement.STUDENT_ID + " - Treatment Given: " + getTreatmentGiven());
+        System.out.println(Question1_HospitalManagement.STUDENT_ID + " - Treatment Cost: $" + getTreatmentCost());
+        System.out.println("\n" + Question1_HospitalManagement.STUDENT_ID + " - --- Billing Details ---");
+        System.out.println(Question1_HospitalManagement.STUDENT_ID + " - Doctor Fee: $" + getDoctorFee());
+        System.out.println(Question1_HospitalManagement.STUDENT_ID + " - Medicine Cost: $" + getMedicineCost());
+        System.out.println(Question1_HospitalManagement.STUDENT_ID + " - Total Bill: $" + getTotalBill());
+        System.out.println(Question1_HospitalManagement.STUDENT_ID + " - ===============================================\n");
     }
 }
 
 public class Question1_HospitalManagement {
+    public static final String STUDENT_ID = "27264";
+    
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         
         try {
-            System.out.println("========== HOSPITAL MANAGEMENT SYSTEM ==========\n");
+            System.out.println(Question1_HospitalManagement.STUDENT_ID + " - ========== HOSPITAL MANAGEMENT SYSTEM ==========\n");
             
             System.out.print("Enter Record ID: ");
             int id = scanner.nextInt();
@@ -465,9 +467,9 @@ public class Question1_HospitalManagement {
             record.displayRecord();
             
         } catch (HospitalDataException e) {
-            System.out.println("Validation Error: " + e.getMessage());
+            System.out.println(Question1_HospitalManagement.STUDENT_ID + " - Validation Error: " + e.getMessage());
         } catch (Exception e) {
-            System.out.println("Input Error: Please enter valid data");
+            System.out.println(Question1_HospitalManagement.STUDENT_ID + " - Input Error: Please enter valid data");
         } finally {
             scanner.close();
         }

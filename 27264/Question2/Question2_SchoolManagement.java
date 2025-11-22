@@ -315,54 +315,56 @@ final class StudentRecord extends Fee {
     }
 
     public void displayRecord() {
-        System.out.println("\n========== SCHOOL MANAGEMENT SYSTEM ==========");
-        System.out.println("Record ID: " + getId());
-        System.out.println("Created Date: " + getCreatedDate());
-        System.out.println("Updated Date: " + getUpdatedDate());
-        System.out.println("\n--- School Details ---");
-        System.out.println("School Name: " + getSchoolName());
-        System.out.println("Address: " + getAddress());
-        System.out.println("Phone: " + getPhoneNumber());
-        System.out.println("Email: " + getEmail());
-        System.out.println("\n--- Department Details ---");
-        System.out.println("Department: " + getDepartmentName());
-        System.out.println("Department Code: " + getDepartmentCode());
-        System.out.println("\n--- Teacher Details ---");
-        System.out.println("Teacher Name: " + getTeacherName());
-        System.out.println("Subject: " + getSubject());
-        System.out.println("Teacher Email: " + getTeacherEmail());
-        System.out.println("Teacher Phone: " + getPhone());
-        System.out.println("\n--- Student Details ---");
-        System.out.println("Student Name: " + getStudentName());
-        System.out.println("Age: " + getStudentAge());
-        System.out.println("Grade: " + getStudentGrade());
-        System.out.println("Contact: " + getStudentContact());
-        System.out.println("\n--- Course Details ---");
-        System.out.println("Course Name: " + getCourseName());
-        System.out.println("Course Code: " + getCourseCode());
-        System.out.println("Credit Hours: " + getCreditHours());
-        System.out.println("\n--- Exam Details ---");
-        System.out.println("Exam Date: " + getExamDate());
-        System.out.println("Exam Type: " + getExamType());
-        System.out.println("Duration (minutes): " + getDuration());
-        System.out.println("\n--- Result Details ---");
-        System.out.println("Obtained Marks: " + getObtainedMarks());
-        System.out.println("Max Marks: " + getMaxMarks());
-        System.out.println("Percentage: " + String.format("%.2f", getPercentage()) + "%");
-        System.out.println("\n--- Fee Details ---");
-        System.out.println("Tution Fee: $" + getTutionFee());
-        System.out.println("Library Fee: $" + getLibraryFee());
-        System.out.println("Total Fee: $" + getTotalFee());
-        System.out.println("===============================================\n");
+        System.out.println("\n" + Question2_SchoolManagement.STUDENT_ID + " - ========== SCHOOL MANAGEMENT SYSTEM ==========");
+        System.out.println(Question2_SchoolManagement.STUDENT_ID + " - Record ID: " + getId());
+        System.out.println(Question2_SchoolManagement.STUDENT_ID + " - Created Date: " + getCreatedDate());
+        System.out.println(Question2_SchoolManagement.STUDENT_ID + " - Updated Date: " + getUpdatedDate());
+        System.out.println("\n" + Question2_SchoolManagement.STUDENT_ID + " - --- School Details ---");
+        System.out.println(Question2_SchoolManagement.STUDENT_ID + " - School Name: " + getSchoolName());
+        System.out.println(Question2_SchoolManagement.STUDENT_ID + " - Address: " + getAddress());
+        System.out.println(Question2_SchoolManagement.STUDENT_ID + " - Phone: " + getPhoneNumber());
+        System.out.println(Question2_SchoolManagement.STUDENT_ID + " - Email: " + getEmail());
+        System.out.println("\n" + Question2_SchoolManagement.STUDENT_ID + " - --- Department Details ---");
+        System.out.println(Question2_SchoolManagement.STUDENT_ID + " - Department: " + getDepartmentName());
+        System.out.println(Question2_SchoolManagement.STUDENT_ID + " - Department Code: " + getDepartmentCode());
+        System.out.println("\n" + Question2_SchoolManagement.STUDENT_ID + " - --- Teacher Details ---");
+        System.out.println(Question2_SchoolManagement.STUDENT_ID + " - Teacher Name: " + getTeacherName());
+        System.out.println(Question2_SchoolManagement.STUDENT_ID + " - Subject: " + getSubject());
+        System.out.println(Question2_SchoolManagement.STUDENT_ID + " - Teacher Email: " + getTeacherEmail());
+        System.out.println(Question2_SchoolManagement.STUDENT_ID + " - Teacher Phone: " + getPhone());
+        System.out.println("\n" + Question2_SchoolManagement.STUDENT_ID + " - --- Student Details ---");
+        System.out.println(Question2_SchoolManagement.STUDENT_ID + " - Student Name: " + getStudentName());
+        System.out.println(Question2_SchoolManagement.STUDENT_ID + " - Age: " + getStudentAge());
+        System.out.println(Question2_SchoolManagement.STUDENT_ID + " - Grade: " + getStudentGrade());
+        System.out.println(Question2_SchoolManagement.STUDENT_ID + " - Contact: " + getStudentContact());
+        System.out.println("\n" + Question2_SchoolManagement.STUDENT_ID + " - --- Course Details ---");
+        System.out.println(Question2_SchoolManagement.STUDENT_ID + " - Course Name: " + getCourseName());
+        System.out.println(Question2_SchoolManagement.STUDENT_ID + " - Course Code: " + getCourseCode());
+        System.out.println(Question2_SchoolManagement.STUDENT_ID + " - Credit Hours: " + getCreditHours());
+        System.out.println("\n" + Question2_SchoolManagement.STUDENT_ID + " - --- Exam Details ---");
+        System.out.println(Question2_SchoolManagement.STUDENT_ID + " - Exam Date: " + getExamDate());
+        System.out.println(Question2_SchoolManagement.STUDENT_ID + " - Exam Type: " + getExamType());
+        System.out.println(Question2_SchoolManagement.STUDENT_ID + " - Duration (minutes): " + getDuration());
+        System.out.println("\n" + Question2_SchoolManagement.STUDENT_ID + " - --- Result Details ---");
+        System.out.println(Question2_SchoolManagement.STUDENT_ID + " - Obtained Marks: " + getObtainedMarks());
+        System.out.println(Question2_SchoolManagement.STUDENT_ID + " - Max Marks: " + getMaxMarks());
+        System.out.println(Question2_SchoolManagement.STUDENT_ID + " - Percentage: " + String.format("%.2f", getPercentage()) + "%");
+        System.out.println("\n" + Question2_SchoolManagement.STUDENT_ID + " - --- Fee Details ---");
+        System.out.println(Question2_SchoolManagement.STUDENT_ID + " - Tution Fee: $" + getTutionFee());
+        System.out.println(Question2_SchoolManagement.STUDENT_ID + " - Library Fee: $" + getLibraryFee());
+        System.out.println(Question2_SchoolManagement.STUDENT_ID + " - Total Fee: $" + getTotalFee());
+        System.out.println(Question2_SchoolManagement.STUDENT_ID + " - ===============================================\n");
     }
 }
 
 public class Question2_SchoolManagement {
+    public static final String STUDENT_ID = "27264";
+    
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         
         try {
-            System.out.println("========== SCHOOL MANAGEMENT SYSTEM ==========\n");
+            System.out.println(Question2_SchoolManagement.STUDENT_ID + " - ========== SCHOOL MANAGEMENT SYSTEM ==========\n");
             
             System.out.print("Enter Record ID: ");
             int id = scanner.nextInt();
@@ -459,9 +461,9 @@ public class Question2_SchoolManagement {
             record.displayRecord();
             
         } catch (SchoolDataException e) {
-            System.out.println("Validation Error: " + e.getMessage());
+            System.out.println(Question2_SchoolManagement.STUDENT_ID + " - Validation Error: " + e.getMessage());
         } catch (Exception e) {
-            System.out.println("Input Error: Please enter valid data");
+            System.out.println(Question2_SchoolManagement.STUDENT_ID + " - Input Error: Please enter valid data");
         } finally {
             scanner.close();
         }

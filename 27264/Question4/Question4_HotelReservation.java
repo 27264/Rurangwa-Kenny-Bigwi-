@@ -306,52 +306,54 @@ final class ReservationRecord extends Feedback {
     }
 
     public void displayRecord() {
-        System.out.println("\n========== HOTEL RESERVATION SYSTEM ==========");
-        System.out.println("Record ID: " + getId());
-        System.out.println("Created Date: " + getCreatedDate());
-        System.out.println("Updated Date: " + getUpdatedDate());
-        System.out.println("\n--- Hotel Details ---");
-        System.out.println("Hotel Name: " + getHotelName());
-        System.out.println("Address: " + getAddress());
-        System.out.println("Phone: " + getPhoneNumber());
-        System.out.println("Email: " + getEmail());
-        System.out.println("\n--- Room Details ---");
-        System.out.println("Room Number: " + getRoomNumber());
-        System.out.println("Room Type: " + getRoomType());
-        System.out.println("Room Price: $" + getRoomPrice());
-        System.out.println("\n--- Customer Details ---");
-        System.out.println("Customer Name: " + getCustomerName());
-        System.out.println("Customer Email: " + getCustomerEmail());
-        System.out.println("Customer Phone: " + getPhone());
-        System.out.println("ID Proof: " + getIdProof());
-        System.out.println("\n--- Booking Details ---");
-        System.out.println("Check-In Date: " + getCheckInDate());
-        System.out.println("Check-Out Date: " + getCheckOutDate());
-        System.out.println("Number of Days: " + getNumberOfDays());
-        System.out.println("\n--- Service Details ---");
-        System.out.println("Service Name: " + getServiceName());
-        System.out.println("Service Charge: $" + getServiceCharge());
-        System.out.println("Service Date: " + getServiceDate());
-        System.out.println("\n--- Payment Details ---");
-        System.out.println("Payment Method: " + getPaymentMethod());
-        System.out.println("Payment Date: " + getPaymentDate());
-        System.out.println("Amount Paid: $" + getAmountPaid());
-        System.out.println("\n--- Bill Details ---");
-        System.out.println("Room Charge: $" + getRoomCharge());
-        System.out.println("Total Bill: $" + getTotalBill());
-        System.out.println("\n--- Feedback Details ---");
-        System.out.println("Rating: " + getRating() + "/5");
-        System.out.println("Comments: " + getComments());
-        System.out.println("===============================================\n");
+        System.out.println("\n" + Question4_HotelReservation.STUDENT_ID + " - ========== HOTEL RESERVATION SYSTEM ==========");
+        System.out.println(Question4_HotelReservation.STUDENT_ID + " - Record ID: " + getId());
+        System.out.println(Question4_HotelReservation.STUDENT_ID + " - Created Date: " + getCreatedDate());
+        System.out.println(Question4_HotelReservation.STUDENT_ID + " - Updated Date: " + getUpdatedDate());
+        System.out.println("\n" + Question4_HotelReservation.STUDENT_ID + " - --- Hotel Details ---");
+        System.out.println(Question4_HotelReservation.STUDENT_ID + " - Hotel Name: " + getHotelName());
+        System.out.println(Question4_HotelReservation.STUDENT_ID + " - Address: " + getAddress());
+        System.out.println(Question4_HotelReservation.STUDENT_ID + " - Phone: " + getPhoneNumber());
+        System.out.println(Question4_HotelReservation.STUDENT_ID + " - Email: " + getEmail());
+        System.out.println("\n" + Question4_HotelReservation.STUDENT_ID + " - --- Room Details ---");
+        System.out.println(Question4_HotelReservation.STUDENT_ID + " - Room Number: " + getRoomNumber());
+        System.out.println(Question4_HotelReservation.STUDENT_ID + " - Room Type: " + getRoomType());
+        System.out.println(Question4_HotelReservation.STUDENT_ID + " - Room Price: $" + getRoomPrice());
+        System.out.println("\n" + Question4_HotelReservation.STUDENT_ID + " - --- Customer Details ---");
+        System.out.println(Question4_HotelReservation.STUDENT_ID + " - Customer Name: " + getCustomerName());
+        System.out.println(Question4_HotelReservation.STUDENT_ID + " - Customer Email: " + getCustomerEmail());
+        System.out.println(Question4_HotelReservation.STUDENT_ID + " - Customer Phone: " + getPhone());
+        System.out.println(Question4_HotelReservation.STUDENT_ID + " - ID Proof: " + getIdProof());
+        System.out.println("\n" + Question4_HotelReservation.STUDENT_ID + " - --- Booking Details ---");
+        System.out.println(Question4_HotelReservation.STUDENT_ID + " - Check-In Date: " + getCheckInDate());
+        System.out.println(Question4_HotelReservation.STUDENT_ID + " - Check-Out Date: " + getCheckOutDate());
+        System.out.println(Question4_HotelReservation.STUDENT_ID + " - Number of Days: " + getNumberOfDays());
+        System.out.println("\n" + Question4_HotelReservation.STUDENT_ID + " - --- Service Details ---");
+        System.out.println(Question4_HotelReservation.STUDENT_ID + " - Service Name: " + getServiceName());
+        System.out.println(Question4_HotelReservation.STUDENT_ID + " - Service Charge: $" + getServiceCharge());
+        System.out.println(Question4_HotelReservation.STUDENT_ID + " - Service Date: " + getServiceDate());
+        System.out.println("\n" + Question4_HotelReservation.STUDENT_ID + " - --- Payment Details ---");
+        System.out.println(Question4_HotelReservation.STUDENT_ID + " - Payment Method: " + getPaymentMethod());
+        System.out.println(Question4_HotelReservation.STUDENT_ID + " - Payment Date: " + getPaymentDate());
+        System.out.println(Question4_HotelReservation.STUDENT_ID + " - Amount Paid: $" + getAmountPaid());
+        System.out.println("\n" + Question4_HotelReservation.STUDENT_ID + " - --- Bill Details ---");
+        System.out.println(Question4_HotelReservation.STUDENT_ID + " - Room Charge: $" + getRoomCharge());
+        System.out.println(Question4_HotelReservation.STUDENT_ID + " - Total Bill: $" + getTotalBill());
+        System.out.println("\n" + Question4_HotelReservation.STUDENT_ID + " - --- Feedback Details ---");
+        System.out.println(Question4_HotelReservation.STUDENT_ID + " - Rating: " + getRating() + "/5");
+        System.out.println(Question4_HotelReservation.STUDENT_ID + " - Comments: " + getComments());
+        System.out.println(Question4_HotelReservation.STUDENT_ID + " - ===============================================\n");
     }
 }
 
 public class Question4_HotelReservation {
+    public static final String STUDENT_ID = "27264";
+    
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         
         try {
-            System.out.println("========== HOTEL RESERVATION SYSTEM ==========\n");
+            System.out.println(Question4_HotelReservation.STUDENT_ID + " - ========== HOTEL RESERVATION SYSTEM ==========\n");
             
             System.out.print("Enter Record ID: ");
             int id = scanner.nextInt();
@@ -447,9 +449,9 @@ public class Question4_HotelReservation {
             record.displayRecord();
             
         } catch (HotelDataException e) {
-            System.out.println("Validation Error: " + e.getMessage());
+            System.out.println(Question4_HotelReservation.STUDENT_ID + " - Validation Error: " + e.getMessage());
         } catch (Exception e) {
-            System.out.println("Input Error: Please enter valid data");
+            System.out.println(Question4_HotelReservation.STUDENT_ID + " - Input Error: Please enter valid data");
         } finally {
             scanner.close();
         }

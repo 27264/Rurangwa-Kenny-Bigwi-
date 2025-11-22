@@ -320,53 +320,55 @@ final class PayrollRecord extends Salary {
     }
 
     public void displayRecord() {
-        System.out.println("\n========== EMPLOYEE PAYROLL SYSTEM ==========");
-        System.out.println("Record ID: " + getId());
-        System.out.println("Created Date: " + getCreatedDate());
-        System.out.println("Updated Date: " + getUpdatedDate());
-        System.out.println("\n--- Company Details ---");
-        System.out.println("Company Name: " + getCompanyName());
-        System.out.println("Address: " + getAddress());
-        System.out.println("Phone: " + getPhoneNumber());
-        System.out.println("Email: " + getEmail());
-        System.out.println("\n--- Department Details ---");
-        System.out.println("Department: " + getDepartmentName());
-        System.out.println("Department Code: " + getDepartmentCode());
-        System.out.println("\n--- Manager Details ---");
-        System.out.println("Manager Name: " + getManagerName());
-        System.out.println("Manager Email: " + getManagerEmail());
-        System.out.println("Manager Phone: " + getPhone());
-        System.out.println("Years of Experience: " + getYearsOfExperience());
-        System.out.println("\n--- Employee Details ---");
-        System.out.println("Employee Name: " + getEmployeeName());
-        System.out.println("Designation: " + getDesignation());
-        System.out.println("Employee Email: " + getEmployeeEmail());
-        System.out.println("Employee Phone: " + getEmployeePhone());
-        System.out.println("\n--- Attendance Details ---");
-        System.out.println("Total Days: " + getTotalDays());
-        System.out.println("Present Days: " + getPresentDays());
-        System.out.println("Absent Days: " + getAbsentDays());
-        System.out.println("\n--- Allowance Details ---");
-        System.out.println("House Rent Allowance: $" + getHouseRentAllowance());
-        System.out.println("Transport Allowance: $" + getTransportAllowance());
-        System.out.println("Total Allowance: $" + getTotalAllowance());
-        System.out.println("\n--- Deduction Details ---");
-        System.out.println("Tax: $" + getTax());
-        System.out.println("Provident Fund: $" + getProvidentFund());
-        System.out.println("Total Deduction: $" + getTotalDeduction());
-        System.out.println("\n--- Salary Details ---");
-        System.out.println("Basic Salary: $" + getBasicSalary());
-        System.out.println("Net Salary: $" + getNetSalary());
-        System.out.println("===============================================\n");
+        System.out.println("\n" + Question3_EmployeePayroll.STUDENT_ID + " - ========== EMPLOYEE PAYROLL SYSTEM ==========");
+        System.out.println(Question3_EmployeePayroll.STUDENT_ID + " - Record ID: " + getId());
+        System.out.println(Question3_EmployeePayroll.STUDENT_ID + " - Created Date: " + getCreatedDate());
+        System.out.println(Question3_EmployeePayroll.STUDENT_ID + " - Updated Date: " + getUpdatedDate());
+        System.out.println("\n" + Question3_EmployeePayroll.STUDENT_ID + " - --- Company Details ---");
+        System.out.println(Question3_EmployeePayroll.STUDENT_ID + " - Company Name: " + getCompanyName());
+        System.out.println(Question3_EmployeePayroll.STUDENT_ID + " - Address: " + getAddress());
+        System.out.println(Question3_EmployeePayroll.STUDENT_ID + " - Phone: " + getPhoneNumber());
+        System.out.println(Question3_EmployeePayroll.STUDENT_ID + " - Email: " + getEmail());
+        System.out.println("\n" + Question3_EmployeePayroll.STUDENT_ID + " - --- Department Details ---");
+        System.out.println(Question3_EmployeePayroll.STUDENT_ID + " - Department: " + getDepartmentName());
+        System.out.println(Question3_EmployeePayroll.STUDENT_ID + " - Department Code: " + getDepartmentCode());
+        System.out.println("\n" + Question3_EmployeePayroll.STUDENT_ID + " - --- Manager Details ---");
+        System.out.println(Question3_EmployeePayroll.STUDENT_ID + " - Manager Name: " + getManagerName());
+        System.out.println(Question3_EmployeePayroll.STUDENT_ID + " - Manager Email: " + getManagerEmail());
+        System.out.println(Question3_EmployeePayroll.STUDENT_ID + " - Manager Phone: " + getPhone());
+        System.out.println(Question3_EmployeePayroll.STUDENT_ID + " - Years of Experience: " + getYearsOfExperience());
+        System.out.println("\n" + Question3_EmployeePayroll.STUDENT_ID + " - --- Employee Details ---");
+        System.out.println(Question3_EmployeePayroll.STUDENT_ID + " - Employee Name: " + getEmployeeName());
+        System.out.println(Question3_EmployeePayroll.STUDENT_ID + " - Designation: " + getDesignation());
+        System.out.println(Question3_EmployeePayroll.STUDENT_ID + " - Employee Email: " + getEmployeeEmail());
+        System.out.println(Question3_EmployeePayroll.STUDENT_ID + " - Employee Phone: " + getEmployeePhone());
+        System.out.println("\n" + Question3_EmployeePayroll.STUDENT_ID + " - --- Attendance Details ---");
+        System.out.println(Question3_EmployeePayroll.STUDENT_ID + " - Total Days: " + getTotalDays());
+        System.out.println(Question3_EmployeePayroll.STUDENT_ID + " - Present Days: " + getPresentDays());
+        System.out.println(Question3_EmployeePayroll.STUDENT_ID + " - Absent Days: " + getAbsentDays());
+        System.out.println("\n" + Question3_EmployeePayroll.STUDENT_ID + " - --- Allowance Details ---");
+        System.out.println(Question3_EmployeePayroll.STUDENT_ID + " - House Rent Allowance: $" + getHouseRentAllowance());
+        System.out.println(Question3_EmployeePayroll.STUDENT_ID + " - Transport Allowance: $" + getTransportAllowance());
+        System.out.println(Question3_EmployeePayroll.STUDENT_ID + " - Total Allowance: $" + getTotalAllowance());
+        System.out.println("\n" + Question3_EmployeePayroll.STUDENT_ID + " - --- Deduction Details ---");
+        System.out.println(Question3_EmployeePayroll.STUDENT_ID + " - Tax: $" + getTax());
+        System.out.println(Question3_EmployeePayroll.STUDENT_ID + " - Provident Fund: $" + getProvidentFund());
+        System.out.println(Question3_EmployeePayroll.STUDENT_ID + " - Total Deduction: $" + getTotalDeduction());
+        System.out.println("\n" + Question3_EmployeePayroll.STUDENT_ID + " - --- Salary Details ---");
+        System.out.println(Question3_EmployeePayroll.STUDENT_ID + " - Basic Salary: $" + getBasicSalary());
+        System.out.println(Question3_EmployeePayroll.STUDENT_ID + " - Net Salary: $" + getNetSalary());
+        System.out.println(Question3_EmployeePayroll.STUDENT_ID + " - ===============================================\n");
     }
 }
 
 public class Question3_EmployeePayroll {
+    public static final String STUDENT_ID = "27264";
+    
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         
         try {
-            System.out.println("========== EMPLOYEE PAYROLL SYSTEM ==========\n");
+            System.out.println(Question3_EmployeePayroll.STUDENT_ID + " - ========== EMPLOYEE PAYROLL SYSTEM ==========\n");
             
             System.out.print("Enter Record ID: ");
             int id = scanner.nextInt();
@@ -455,9 +457,9 @@ public class Question3_EmployeePayroll {
             record.displayRecord();
             
         } catch (EmployeeDataException e) {
-            System.out.println("Validation Error: " + e.getMessage());
+            System.out.println(Question3_EmployeePayroll.STUDENT_ID + " - Validation Error: " + e.getMessage());
         } catch (Exception e) {
-            System.out.println("Input Error: Please enter valid data");
+            System.out.println(Question3_EmployeePayroll.STUDENT_ID + " - Input Error: Please enter valid data");
         } finally {
             scanner.close();
         }

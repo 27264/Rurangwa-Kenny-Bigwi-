@@ -318,54 +318,56 @@ final class LibraryManagementRecord extends LibraryRecordData {
     }
 
     public void displayRecord() {
-        System.out.println("\n========== LIBRARY MANAGEMENT SYSTEM ==========");
-        System.out.println("Record ID: " + getId());
-        System.out.println("Created Date: " + getCreatedDate());
-        System.out.println("Updated Date: " + getUpdatedDate());
-        System.out.println("\n--- Library Details ---");
-        System.out.println("Library Name: " + getLibraryName());
-        System.out.println("Address: " + getAddress());
-        System.out.println("Phone: " + getPhoneNumber());
-        System.out.println("Email: " + getEmail());
-        System.out.println("\n--- Section Details ---");
-        System.out.println("Section Name: " + getSectionName());
-        System.out.println("Section Code: " + getSectionCode());
-        System.out.println("\n--- Book Details ---");
-        System.out.println("Book Title: " + getBookTitle());
-        System.out.println("Author: " + getAuthor());
-        System.out.println("Book Email: " + getBookEmail());
-        System.out.println("Book Phone: " + getPhone());
-        System.out.println("\n--- Member Details ---");
-        System.out.println("Member Name: " + getMemberName());
-        System.out.println("Membership Type: " + getMembershipType());
-        System.out.println("Years of Membership: " + getYearsOfMembership());
-        System.out.println("\n--- Borrow Details ---");
-        System.out.println("Borrow Date: " + getBorrowDate());
-        System.out.println("Borrow Days: " + getBorrowDays());
-        System.out.println("Return Status: " + getReturnStatus());
-        System.out.println("Contact Number: " + getContactNumber());
-        System.out.println("\n--- Fine Details ---");
-        System.out.println("Fine Reason: " + getFineReason());
-        System.out.println("Days Late: " + getDaysLate());
-        System.out.println("Fine Amount: $" + getFineAmount());
-        System.out.println("\n--- Payment Details ---");
-        System.out.println("Payment Method: " + getPaymentMethod());
-        System.out.println("Transaction ID: " + getTransactionId());
-        System.out.println("Payment Amount: $" + getPaymentAmount());
-        System.out.println("\n--- Record Details ---");
-        System.out.println("Processing Fee: $" + getProcessingFee());
-        System.out.println("Membership Fee: $" + getMembershipFee());
-        System.out.println("Total Fine: $" + getTotalFine());
-        System.out.println("===============================================\n");
+        System.out.println("\n" + Question8_LibraryManagement.STUDENT_ID + " - ========== LIBRARY MANAGEMENT SYSTEM ==========");
+        System.out.println(Question8_LibraryManagement.STUDENT_ID + " - Record ID: " + getId());
+        System.out.println(Question8_LibraryManagement.STUDENT_ID + " - Created Date: " + getCreatedDate());
+        System.out.println(Question8_LibraryManagement.STUDENT_ID + " - Updated Date: " + getUpdatedDate());
+        System.out.println("\n" + Question8_LibraryManagement.STUDENT_ID + " - --- Library Details ---");
+        System.out.println(Question8_LibraryManagement.STUDENT_ID + " - Library Name: " + getLibraryName());
+        System.out.println(Question8_LibraryManagement.STUDENT_ID + " - Address: " + getAddress());
+        System.out.println(Question8_LibraryManagement.STUDENT_ID + " - Phone: " + getPhoneNumber());
+        System.out.println(Question8_LibraryManagement.STUDENT_ID + " - Email: " + getEmail());
+        System.out.println("\n" + Question8_LibraryManagement.STUDENT_ID + " - --- Section Details ---");
+        System.out.println(Question8_LibraryManagement.STUDENT_ID + " - Section Name: " + getSectionName());
+        System.out.println(Question8_LibraryManagement.STUDENT_ID + " - Section Code: " + getSectionCode());
+        System.out.println("\n" + Question8_LibraryManagement.STUDENT_ID + " - --- Book Details ---");
+        System.out.println(Question8_LibraryManagement.STUDENT_ID + " - Book Title: " + getBookTitle());
+        System.out.println(Question8_LibraryManagement.STUDENT_ID + " - Author: " + getAuthor());
+        System.out.println(Question8_LibraryManagement.STUDENT_ID + " - Book Email: " + getBookEmail());
+        System.out.println(Question8_LibraryManagement.STUDENT_ID + " - Book Phone: " + getPhone());
+        System.out.println("\n" + Question8_LibraryManagement.STUDENT_ID + " - --- Member Details ---");
+        System.out.println(Question8_LibraryManagement.STUDENT_ID + " - Member Name: " + getMemberName());
+        System.out.println(Question8_LibraryManagement.STUDENT_ID + " - Membership Type: " + getMembershipType());
+        System.out.println(Question8_LibraryManagement.STUDENT_ID + " - Years of Membership: " + getYearsOfMembership());
+        System.out.println("\n" + Question8_LibraryManagement.STUDENT_ID + " - --- Borrow Details ---");
+        System.out.println(Question8_LibraryManagement.STUDENT_ID + " - Borrow Date: " + getBorrowDate());
+        System.out.println(Question8_LibraryManagement.STUDENT_ID + " - Borrow Days: " + getBorrowDays());
+        System.out.println(Question8_LibraryManagement.STUDENT_ID + " - Return Status: " + getReturnStatus());
+        System.out.println(Question8_LibraryManagement.STUDENT_ID + " - Contact Number: " + getContactNumber());
+        System.out.println("\n" + Question8_LibraryManagement.STUDENT_ID + " - --- Fine Details ---");
+        System.out.println(Question8_LibraryManagement.STUDENT_ID + " - Fine Reason: " + getFineReason());
+        System.out.println(Question8_LibraryManagement.STUDENT_ID + " - Days Late: " + getDaysLate());
+        System.out.println(Question8_LibraryManagement.STUDENT_ID + " - Fine Amount: $" + getFineAmount());
+        System.out.println("\n" + Question8_LibraryManagement.STUDENT_ID + " - --- Payment Details ---");
+        System.out.println(Question8_LibraryManagement.STUDENT_ID + " - Payment Method: " + getPaymentMethod());
+        System.out.println(Question8_LibraryManagement.STUDENT_ID + " - Transaction ID: " + getTransactionId());
+        System.out.println(Question8_LibraryManagement.STUDENT_ID + " - Payment Amount: $" + getPaymentAmount());
+        System.out.println("\n" + Question8_LibraryManagement.STUDENT_ID + " - --- Record Details ---");
+        System.out.println(Question8_LibraryManagement.STUDENT_ID + " - Processing Fee: $" + getProcessingFee());
+        System.out.println(Question8_LibraryManagement.STUDENT_ID + " - Membership Fee: $" + getMembershipFee());
+        System.out.println(Question8_LibraryManagement.STUDENT_ID + " - Total Fine: $" + getTotalFine());
+        System.out.println(Question8_LibraryManagement.STUDENT_ID + " - ===============================================\n");
     }
 }
 
 public class Question8_LibraryManagement {
+    public static final String STUDENT_ID = "27264";
+    
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         
         try {
-            System.out.println("========== LIBRARY MANAGEMENT SYSTEM ==========\n");
+            System.out.println(Question8_LibraryManagement.STUDENT_ID + " - ========== LIBRARY MANAGEMENT SYSTEM ==========\n");
             
             System.out.print("Enter Record ID: ");
             int id = scanner.nextInt();
@@ -465,9 +467,9 @@ public class Question8_LibraryManagement {
             record.displayRecord();
             
         } catch (LibraryException e) {
-            System.out.println("Validation Error: " + e.getMessage());
+            System.out.println(Question8_LibraryManagement.STUDENT_ID + " - Validation Error: " + e.getMessage());
         } catch (Exception e) {
-            System.out.println("Input Error: Please enter valid data");
+            System.out.println(Question8_LibraryManagement.STUDENT_ID + " - Input Error: Please enter valid data");
         } finally {
             scanner.close();
         }

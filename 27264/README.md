@@ -18,9 +18,3 @@ This repository contains ten Java programs that mirror common OOP exercises (hos
 ## Running
 
 Use `javac QuestionX_*.java` to compile and `java QuestionX_*` to run, supplying the prompted inputs when requested.
-
-## Notes
-
-- Minimal exception handling exists for bad inputs.
-- Calculations are straightforward additions or percentage checks.
-- Output simply echoes what was entered along with the computed value.

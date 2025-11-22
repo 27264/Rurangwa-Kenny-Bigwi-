@@ -318,54 +318,56 @@ final class OrderRecord extends ShoppingInvoice {
     }
 
     public void displayRecord() {
-        System.out.println("\n========== ONLINE SHOPPING SYSTEM ==========");
-        System.out.println("Record ID: " + getId());
-        System.out.println("Created Date: " + getCreatedDate());
-        System.out.println("Updated Date: " + getUpdatedDate());
-        System.out.println("\n--- Store Details ---");
-        System.out.println("Store Name: " + getStoreName());
-        System.out.println("Address: " + getAddress());
-        System.out.println("Phone: " + getPhoneNumber());
-        System.out.println("Email: " + getEmail());
-        System.out.println("\n--- Category Details ---");
-        System.out.println("Category Name: " + getCategoryName());
-        System.out.println("Category Code: " + getCategoryCode());
-        System.out.println("\n--- Product Details ---");
-        System.out.println("Product Name: " + getProductName());
-        System.out.println("Brand: " + getBrand());
-        System.out.println("Product Email: " + getProductEmail());
-        System.out.println("Product Phone: " + getPhone());
-        System.out.println("\n--- Customer Details ---");
-        System.out.println("Customer Name: " + getCustomerName());
-        System.out.println("Customer Type: " + getCustomerType());
-        System.out.println("Years of Membership: " + getYearsOfMembership());
-        System.out.println("\n--- Order Details ---");
-        System.out.println("Order Number: " + getOrderNumber());
-        System.out.println("Quantity: " + getQuantity());
-        System.out.println("Order Status: " + getOrderStatus());
-        System.out.println("Contact Number: " + getContactNumber());
-        System.out.println("\n--- Payment Details ---");
-        System.out.println("Payment Method: " + getPaymentMethod());
-        System.out.println("Transaction ID: " + getTransactionId());
-        System.out.println("Price: $" + getPrice());
-        System.out.println("\n--- Shipping Details ---");
-        System.out.println("Shipping Address: " + getShippingAddress());
-        System.out.println("Carrier: " + getCarrier());
-        System.out.println("Shipping Cost: $" + getShippingCost());
-        System.out.println("\n--- Invoice Details ---");
-        System.out.println("Tax Amount: $" + getTaxAmount());
-        System.out.println("Discount: $" + getDiscount());
-        System.out.println("Total Amount: $" + getTotalAmount());
-        System.out.println("============================================\n");
+        System.out.println("\n" + Question10_OnlineShopping.STUDENT_ID + " - ========== ONLINE SHOPPING SYSTEM ==========");
+        System.out.println(Question10_OnlineShopping.STUDENT_ID + " - Record ID: " + getId());
+        System.out.println(Question10_OnlineShopping.STUDENT_ID + " - Created Date: " + getCreatedDate());
+        System.out.println(Question10_OnlineShopping.STUDENT_ID + " - Updated Date: " + getUpdatedDate());
+        System.out.println("\n" + Question10_OnlineShopping.STUDENT_ID + " - --- Store Details ---");
+        System.out.println(Question10_OnlineShopping.STUDENT_ID + " - Store Name: " + getStoreName());
+        System.out.println(Question10_OnlineShopping.STUDENT_ID + " - Address: " + getAddress());
+        System.out.println(Question10_OnlineShopping.STUDENT_ID + " - Phone: " + getPhoneNumber());
+        System.out.println(Question10_OnlineShopping.STUDENT_ID + " - Email: " + getEmail());
+        System.out.println("\n" + Question10_OnlineShopping.STUDENT_ID + " - --- Category Details ---");
+        System.out.println(Question10_OnlineShopping.STUDENT_ID + " - Category Name: " + getCategoryName());
+        System.out.println(Question10_OnlineShopping.STUDENT_ID + " - Category Code: " + getCategoryCode());
+        System.out.println("\n" + Question10_OnlineShopping.STUDENT_ID + " - --- Product Details ---");
+        System.out.println(Question10_OnlineShopping.STUDENT_ID + " - Product Name: " + getProductName());
+        System.out.println(Question10_OnlineShopping.STUDENT_ID + " - Brand: " + getBrand());
+        System.out.println(Question10_OnlineShopping.STUDENT_ID + " - Product Email: " + getProductEmail());
+        System.out.println(Question10_OnlineShopping.STUDENT_ID + " - Product Phone: " + getPhone());
+        System.out.println("\n" + Question10_OnlineShopping.STUDENT_ID + " - --- Customer Details ---");
+        System.out.println(Question10_OnlineShopping.STUDENT_ID + " - Customer Name: " + getCustomerName());
+        System.out.println(Question10_OnlineShopping.STUDENT_ID + " - Customer Type: " + getCustomerType());
+        System.out.println(Question10_OnlineShopping.STUDENT_ID + " - Years of Membership: " + getYearsOfMembership());
+        System.out.println("\n" + Question10_OnlineShopping.STUDENT_ID + " - --- Order Details ---");
+        System.out.println(Question10_OnlineShopping.STUDENT_ID + " - Order Number: " + getOrderNumber());
+        System.out.println(Question10_OnlineShopping.STUDENT_ID + " - Quantity: " + getQuantity());
+        System.out.println(Question10_OnlineShopping.STUDENT_ID + " - Order Status: " + getOrderStatus());
+        System.out.println(Question10_OnlineShopping.STUDENT_ID + " - Contact Number: " + getContactNumber());
+        System.out.println("\n" + Question10_OnlineShopping.STUDENT_ID + " - --- Payment Details ---");
+        System.out.println(Question10_OnlineShopping.STUDENT_ID + " - Payment Method: " + getPaymentMethod());
+        System.out.println(Question10_OnlineShopping.STUDENT_ID + " - Transaction ID: " + getTransactionId());
+        System.out.println(Question10_OnlineShopping.STUDENT_ID + " - Price: $" + getPrice());
+        System.out.println("\n" + Question10_OnlineShopping.STUDENT_ID + " - --- Shipping Details ---");
+        System.out.println(Question10_OnlineShopping.STUDENT_ID + " - Shipping Address: " + getShippingAddress());
+        System.out.println(Question10_OnlineShopping.STUDENT_ID + " - Carrier: " + getCarrier());
+        System.out.println(Question10_OnlineShopping.STUDENT_ID + " - Shipping Cost: $" + getShippingCost());
+        System.out.println("\n" + Question10_OnlineShopping.STUDENT_ID + " - --- Invoice Details ---");
+        System.out.println(Question10_OnlineShopping.STUDENT_ID + " - Tax Amount: $" + getTaxAmount());
+        System.out.println(Question10_OnlineShopping.STUDENT_ID + " - Discount: $" + getDiscount());
+        System.out.println(Question10_OnlineShopping.STUDENT_ID + " - Total Amount: $" + getTotalAmount());
+        System.out.println(Question10_OnlineShopping.STUDENT_ID + " - ============================================\n");
     }
 }
 
 public class Question10_OnlineShopping {
+    public static final String STUDENT_ID = "27264";
+    
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         
         try {
-            System.out.println("========== ONLINE SHOPPING SYSTEM ==========\n");
+            System.out.println(Question10_OnlineShopping.STUDENT_ID + " - ========== ONLINE SHOPPING SYSTEM ==========\n");
             
             System.out.print("Enter Record ID: ");
             int id = scanner.nextInt();
@@ -465,9 +467,9 @@ public class Question10_OnlineShopping {
             record.displayRecord();
             
         } catch (ShoppingException e) {
-            System.out.println("Validation Error: " + e.getMessage());
+            System.out.println(Question10_OnlineShopping.STUDENT_ID + " - Validation Error: " + e.getMessage());
         } catch (Exception e) {
-            System.out.println("Input Error: Please enter valid data");
+            System.out.println(Question10_OnlineShopping.STUDENT_ID + " - Input Error: Please enter valid data");
         } finally {
             scanner.close();
         }
